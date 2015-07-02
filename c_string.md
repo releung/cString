@@ -54,7 +54,7 @@
 ```
 
 ##2. string to int
-	**atoi, atol, atoll, atoq - convert a string to an integer**
+	atoi, atol, atoll, atoq - convert a string to an integer
 
 ``` bash
 	strdup
