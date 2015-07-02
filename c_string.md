@@ -1,11 +1,11 @@
-1. 字符串分割
+##1. 字符串分割
     strtok, strtok_r - extract tokens from strings
     SEE ALSO
            index(3), memchr(3), rindex(3), strchr(3), string(3), strpbrk(3), strsep(3), strspn(3), strstr(3), wcstok(3)
-    //-------------------------------------------------------------------------------------
     example:
        An example of the output produced by this program is the following:
 
+``` bash
            $ ./a.out 'a/bbb///cc;xxx:yyy:' ':;' '/'
            1: a/bbb///cc
                     --> a
@@ -15,8 +15,9 @@
                     --> xxx
            3: yyy
                     --> yyy
-                    
-       Program source
+```
+``` c
+       //Program source
            #include <stdio.h>
            #include <stdlib.h>
            #include <string.h>
@@ -50,17 +51,18 @@
 
                exit(EXIT_SUCCESS);
            }
-    
-    //-------------------------------------------------------------------------------------
+```
 
-2. string to int
-    atoi, atol, atoll, atoq - convert a string to an integer
+##2. string to int
+	**atoi, atol, atoll, atoq - convert a string to an integer**
 
-strdup
-strcpy
+``` bash
+	strdup
+	strcpy
 
-strcmp
+	strcmp
 
 
-assert
+	assert
 
+```
