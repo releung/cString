@@ -1,10 +1,11 @@
 ##1. 字符串分割
+``` bash
     strtok, strtok_r - extract tokens from strings
     SEE ALSO
-           index(3), memchr(3), rindex(3), strchr(3), string(3), strpbrk(3), strsep(3), strspn(3), strstr(3), wcstok(3)
+        index(3), memchr(3), rindex(3), strchr(3), string(3), strpbrk(3), strsep(3), strspn(3), strstr(3), wcstok(3)
+```
     example:
-       An example of the output produced by this program is the following:
-
+       An example of the output produced by this program is the following:  
 ``` bash
            $ ./a.out 'a/bbb///cc;xxx:yyy:' ':;' '/'
            1: a/bbb///cc
